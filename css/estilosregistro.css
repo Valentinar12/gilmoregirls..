@@ -109,13 +109,14 @@ body {
   .form-container h1 {
     font-size: 24px;
     margin-bottom: 30px;
+    color: #834D2D;
   }
   
   form {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 280px;
+   
   }
   
   input {
@@ -147,6 +148,24 @@ body {
     background-color: #e6d5c0;
   }
   
+  .form-container {
+    background-image: url('../imagenes/flores4.JPG');
+    background-repeat: repeat;
+    background-size: contain;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .form-box {
+    background-color: #fef6ee; /* crema */
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+
 
 
   .footer {
