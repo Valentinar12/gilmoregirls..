@@ -9,7 +9,7 @@ body {
   background-color: #fef6ee;
   color: #3e2c1c;
 }
-/* Animación de entrada para el encabezado */
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(-20px); }
   to { opacity: 1; transform: translateY(0); }
@@ -37,11 +37,11 @@ body {
   margin: 0;
 }
 .logo a {
-  text-decoration: none; /* Sin subrayado */
-  color: inherit; /* Toma el color del h1 */
+  text-decoration: none; 
+  color: inherit; 
 }
 
-/* Estilo y animación para los íconos */
+
 .icons {
   display: flex;
   gap: 0.5rem;
@@ -58,7 +58,7 @@ body {
   transform: scale(1.2);
 }
 
-/* Estilo para la barra de navegación */
+
 .nav {
   background-color: #f3e7db;
   display: flex;
@@ -68,7 +68,7 @@ body {
   border-bottom: 1px solid #d6c1b0;
 }
 
-/* Estilo y animación para los enlaces de navegación */
+
 .nav a {
   color: #3e2c1c;
   text-decoration: none;
@@ -97,7 +97,7 @@ body {
   width: 100%;
 }
   
-  /* FORMULARIO DE REGISTRO */
+ 
   .form-container {
     display: flex;
     flex-direction: column;
@@ -157,7 +157,7 @@ body {
   }
   
   .form-box {
-    background-color: #fef6ee; /* crema */
+    background-color: #fef6ee; 
     padding: 30px 20px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -169,7 +169,7 @@ body {
 
 
   .footer {
-    background-color: #6b3b1f; /* Color marrón */
+    background-color: #6b3b1f; 
     padding: 20px 0;
     color: white;
   }
@@ -225,5 +225,7 @@ body {
     width: 25px;
     height: 20px;
   }
+  
+  
   
   
